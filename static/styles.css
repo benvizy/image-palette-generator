@@ -1,0 +1,10 @@
+body {
+    padding: 25px 200px;
+    background-color: #F8F0E3;
+    text-align: center;
+}
+
+.card-header {
+    height: 200px;
+    width: 100%;
+}

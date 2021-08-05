@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Color Palette Generator{% endblock %}
+
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="static/styles.css">
+{% endblock %}
+
+{% block content %}
+
+<h1>Please Upload photograp.</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="btn btn-md btn-primary">
+        <input type="file" name="file"/>
+    </div>
+    <button type="submit" class="btn btn-light">Submit</button>
+</form>
+
+{% endblock %}
